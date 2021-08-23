@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+.register{
+    width: 60%;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #D3D3D3;
+}
+
+.reg-info{
+    border-radius: 5px;
+    width: 85%;
+    margin-bottom: 25px;
+    margin-top:20px;
+    padding: 10px;
+    text-align: center;
+    border-width:0;
+}
+
+.profile, .interests, .avatar{
+    margin-bottom: 25px;
+    margin-top:10px;
+}
+
+.button, .button-del{
+    width: 42%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #1259c3;
+    border-width: 0;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+.button-del{
+    background-color: #dc143c;
+}
